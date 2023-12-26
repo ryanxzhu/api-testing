@@ -40,7 +40,7 @@ export default function UrbanDictionary() {
                     name="define"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="border-b border-black outline-none bg-transparent md:w-64"
+                    className="border-b border-black outline-none bg-transparent"
                 ></input>
                 <button
                     className="border rounded border-black px-4 ml-4 bg-white"
