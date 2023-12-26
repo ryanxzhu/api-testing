@@ -32,15 +32,14 @@ export default function UrbanDictionary() {
     return (
         <div className="container px-4 my-2">
             <h1 className="text-2xl font-semibold text-center">Urban dictionary</h1>
-            <form className="flex my-4">
-                <span className="font-semibold mr-1">Define:</span>
+            <form className="flex my-4 flex justify-center">
                 <input
                     id="searchInput"
                     type="text"
                     name="define"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="border-b border-black outline-none bg-transparent"
+                    className="border-b border-black outline-none bg-transparent w-full sm:w-64"
                 ></input>
                 <button
                     className="border rounded border-black px-4 ml-4 bg-white"
